@@ -1,0 +1,9 @@
+%eye command usage
+clc;
+clear all;
+close all;
+%----------------------------------
+A=eye(4);
+
+%zeros command
+B=zeros(4)

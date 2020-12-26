@@ -1,0 +1,12 @@
+clc;
+clear all;
+close all;
+
+%-------------------------------------
+
+A=7;
+B=8;
+filename='example.mat';
+save(filename);
+C='Hi';
+save(filename,'C')

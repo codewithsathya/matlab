@@ -1,0 +1,1 @@
+%{Express the quadratic equation with ”a”, ”b”, and ”c” and its quadratic formula in MATLAB. Also find the roots of the quadratic equation by assumingthe weights ”a”, ”b”, and ”c” of the expression.%}clc;clear all;close all;%-------------------------------------a=4;b=-8;c=-1;x1=(-b+sqrt(b.^2-4.*a.*c))/(2.*a);x2=(-b-sqrt(b.^2-4.*a.*c))/(2.*a);

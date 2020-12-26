@@ -1,0 +1,12 @@
+%Create and save two variables, A and B, to a file called ABfile.mat
+clc;
+clear all;
+close all;
+
+%-------------------------------------
+
+A=7;
+B='Hi';
+filename='ABfile.mat';
+save(filename,'A','B');
+%load('ABfile.mat')

@@ -1,0 +1,11 @@
+%Create and save two variables, A and B, to a file called AB1file.xls
+clc;
+clear all;
+close all;
+
+%-------------------------------------
+
+x=7,4;
+y=8;
+filename='ABfile1.xls';
+xlswrite(filename,x);
